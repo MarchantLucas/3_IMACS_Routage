@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Relay_1CT
+#
+DEF Relay_1CT K 0 20 Y Y 1 F N
+F0 "K" -300 -150 50 H V L CNN
+F1 "Relay_1CT" -300 -50 50 H V L CNN
+F2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" -300 50 50 H I L CNN
+F3 "" 50 -450 50 V I C CNN
+$FPLIST
+ Relay*StandexMeder*DIP*LowProfile*
+$ENDFPLIST
+DRAW
+S -150 -850 250 -150 0 1 10 f
+S -25 -775 125 -525 0 1 10 N
+P 4 0 0 0 -150 -250 -50 -250 -75 -275 -100 -250 N
+P 2 0 1 0 -150 -650 -25 -650 N
+P 2 0 1 10 50 -525 50 -500 N
+P 2 0 1 10 50 -475 50 -450 N
+P 2 0 1 10 50 -425 50 -400 N
+P 2 0 1 10 50 -375 50 -350 N
+P 2 0 1 10 50 -325 50 -300 N
+P 2 0 1 10 125 -750 -25 -550 N
+P 2 0 1 20 150 -250 -100 -325 N
+P 2 0 1 0 150 -250 250 -250 N
+P 2 0 1 0 250 -650 125 -650 N
+X ~ b1 -250 -650 100 R 50 50 1 1 P
+X ~ b2 350 -650 100 L 50 50 1 1 P
+X ~ c1 -250 -250 100 R 50 50 1 1 P
+X ~ c2 350 -250 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
