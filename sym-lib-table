@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CmpAmpliAudio)(type Legacy)(uri ${KIPRJMOD}/TR_LibAmpli_3imacs_2021/CmpAmpliAudio.lib)(options "")(descr ""))
+  (lib (name BE_Elec)(type Legacy)(uri ${KIPRJMOD}/BE_Elec.lib)(options "")(descr ""))
+)
