@@ -858,7 +858,7 @@ F 3 "" H 2950 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 6750 2350 6750
+	2950 6750 2700 6750
 Wire Wire Line
 	1450 6050 1850 6050
 Wire Wire Line
@@ -1156,4 +1156,43 @@ F 3 "~" H 1650 3250 50  0001 C CNN
 	1    1650 3250
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:D D3
+U 1 1 6075B0A6
+P 2700 6350
+F 0 "D3" V 2654 6430 50  0000 L CNN
+F 1 "D" V 2745 6430 50  0000 L CNN
+F 2 "CmpAmpliAudio:D_DO-35_SOD27_P10.16mm_Horizontal" H 2700 6350 50  0001 C CNN
+F 3 "~" H 2700 6350 50  0001 C CNN
+	1    2700 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 60762ECE
+P 2700 7000
+F 0 "D4" V 2654 7080 50  0000 L CNN
+F 1 "D" V 2745 7080 50  0000 L CNN
+F 2 "CmpAmpliAudio:D_DO-35_SOD27_P10.16mm_Horizontal" H 2700 7000 50  0001 C CNN
+F 3 "~" H 2700 7000 50  0001 C CNN
+	1    2700 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 6500 2700 6750
+Connection ~ 2700 6750
+Wire Wire Line
+	2700 6750 2350 6750
+Wire Wire Line
+	2350 7300 2700 7300
+Wire Wire Line
+	2700 7300 2700 7150
+Connection ~ 2350 7300
+Wire Wire Line
+	2700 6850 2700 6750
+Wire Wire Line
+	2700 6200 2700 6050
+Wire Wire Line
+	2700 6050 2350 6050
+Connection ~ 2350 6050
 $EndSCHEMATC
